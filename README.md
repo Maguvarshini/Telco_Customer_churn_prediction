@@ -25,3 +25,28 @@ EDA was conducted to understand the distribution of churn across various categor
 
 📌 *Sample Plot: Churn rate by contract type*
 ![newplot](https://github.com/user-attachments/assets/c0e8abaf-b2e3-4c0e-b8aa-432a94307a4e)
+
+## 🔧 Feature Engineering
+
+- Converted categorical features using One-Hot Encoding
+- Replaced "No internet service" and "No phone service" with "No"
+- Standardized numerical columns
+- Created new feature: `TotalServices`
+
+---
+
+## 🤖 Modeling Approach
+
+Trained and compared multiple classification models:
+
+| Model               | Accuracy | F1 Score | ROC-AUC |
+|--------------------|----------|----------|---------|
+| Logistic Regression| 80%      | 0.75     | 0.84    |
+| Decision Tree      | 79%      | 0.74     | 0.82    |
+| Random Forest      | 83%      | 0.78     | 0.88    |
+| XGBoost            | 85%      | 0.80     | 0.90    |
+
+📌 *ROC Curve and Confusion Matrix visualizations below*
+![Confusion matrix models](https://github.com/user-attachments/assets/59453279-a876-425c-838b-fcf910c2ea3c)
+![Confusion matrix models 2](https://github.com/user-attachments/assets/49afd3fe-9770-4568-b115-823fc1fa2cb1)
+![Confusion matrix models 3](https://github.com/user-attachments/assets/76a5d755-d324-4777-8241-73eafc4a2cfe)
