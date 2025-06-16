@@ -24,3 +24,4 @@ EDA was conducted to understand the distribution of churn across various categor
 - Customers without dependents or tech support tend to churn more.
 
 📌 *Sample Plot: Churn rate by contract type*
+![newplot](https://github.com/user-attachments/assets/c0e8abaf-b2e3-4c0e-b8aa-432a94307a4e)
