@@ -1,37 +1,42 @@
-# 📞 Telco Customer Churn Prediction
+# Telco Customer Churn Prediction
+![image](https://github.com/user-attachments/assets/1906171e-17ac-4fae-b928-a6dae8e5238f)
 
-## 🧠 Project Motivation
 
-Customer churn directly impacts the revenue of telecom companies. This project aims to build a predictive model to identify customers who are likely to churn so that proactive retention strategies can be applied.
+## What is Customer Churn?
+
+Customer churn is defined as when customers or subscribers discontinue doing business with a firm or service.
+
+Customers in the telecom industry can choose from a variety of service providers and actively switch from one to the next. The telecommunications business has an annual churn rate of 15-25 percent in this highly competitive market.
+
+Individualized customer retention is tough because most firms have a large number of customers and can't afford to devote much time to each of them. The costs would be too great, outweighing the additional revenue. However, if a corporation could forecast which customers are likely to leave ahead of time, it could focus customer retention efforts only on these "high risk" clients. The ultimate goal is to expand its coverage area and retrieve more customers loyalty. The core to succeed in this market lies in the customer itself.
+
+Customer churn is a critical metric because it is much less expensive to retain existing customers than it is to acquire new customers.
+
+To detect early signs of potential churn, one must first develop a holistic view of the customers and their interactions across numerous channels.As a result, by addressing churn, these businesses may not only preserve their market position, but also grow and thrive. More customers they have in their network, the lower the cost of initiation and the larger the profit. As a result, the company's key focus for success is reducing client attrition and implementing effective retention strategy.
 
 ---
 
-## 🧾 Dataset Overview
+## Objectives:
 
-- **Source**: [Kaggle - Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
-- **Observations**: 7,043
-- **Features**: 21 columns including demographics, account info, and usage behavior
-- **Target**: `Churn` (Yes/No)
+- Finding the % of Churn Customers and customers that keep in with the active services.
+- Analysing the data in terms of various features responsible for customer Churn
+- Finding a most suited machine learning model for correct classification of Churn and non churn customers.
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Dataset:
 
-EDA was conducted to understand the distribution of churn across various categories. Key findings include:
+(https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
-- Month-to-month contract customers show higher churn.
-- Electronic check payment method correlates with churn.
-- Customers without dependents or tech support tend to churn more.
+## The data set includes information about:
+- Customers who left within the last month – the column is called Churn
+- Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
+- Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
+- Demographic info about customers – gender, age range, and if they have partners and dependents
 
-📌 *Sample Plot: Churn rate by contract type*
-![newplot](https://github.com/user-attachments/assets/c0e8abaf-b2e3-4c0e-b8aa-432a94307a4e)
+## Implementation:
 
-## 🔧 Feature Engineering
-
-- Converted categorical features using One-Hot Encoding
-- Replaced "No internet service" and "No phone service" with "No"
-- Standardized numerical columns
-- Created new feature: `TotalServices`
+Libraries: sklearn, Matplotlib, pandas, seaborn, and NumPy
 
 ---
 
@@ -46,7 +51,15 @@ Trained and compared multiple classification models:
 | Random Forest      | 83%      | 0.78     | 0.88    |
 | XGBoost            | 85%      | 0.80     | 0.90    |
 
-📌 *ROC Curve and Confusion Matrix visualizations below*
-![Confusion matrix models](https://github.com/user-attachments/assets/59453279-a876-425c-838b-fcf910c2ea3c)
-![Confusion matrix models 2](https://github.com/user-attachments/assets/49afd3fe-9770-4568-b115-823fc1fa2cb1)
-![Confusion matrix models 3](https://github.com/user-attachments/assets/76a5d755-d324-4777-8241-73eafc4a2cfe)
+---
+
+## Optimizations
+
+We could use Hyperparamete Tuning or Feature enginnering methods to improve the accuracy further.
+
+## 🙋‍♀️ About Me
+
+Hi! I'm **Maguvarshini M**, a B.Tech AI & Data Science student. I’m passionate about Machine Learning and solving real-world problems using AI.
+
+- 💻 [GitHub](https://github.com/maghuvarshini)  
+- 🌐 [LinkedIn](https://linkedin.com/in/maguvarshinim)
