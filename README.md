@@ -26,7 +26,7 @@ To detect early signs of potential churn, one must first develop a holistic view
 
 ## Dataset:
 
-(https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+[Telco Customer Churn](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 ## The data set includes information about:
 - Customers who left within the last month – the column is called Churn
@@ -59,7 +59,8 @@ We could use Hyperparamete Tuning or Feature enginnering methods to improve the 
 
 ## 🙋‍♀️ About Me
 
-Hi! I'm **Maguvarshini M**, a B.Tech AI & Data Science student. I’m passionate about Machine Learning and solving real-world problems using AI.
+Hi! I'm **Maguvarshini M**, a B.Tech AI & Data Science student.
 
-- 💻 [GitHub](https://github.com/maghuvarshini)  
-- 🌐 [LinkedIn](https://linkedin.com/in/maguvarshinim)
+- [GitHub](https://github.com/maghuvarshini)  
+- [LinkedIn](https://linkedin.com/in/maguvarshinim)
+- [E-mail](maguvarshini7@gmail.com)
